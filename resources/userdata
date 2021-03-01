@@ -20,6 +20,7 @@ sudo cp /home/ubuntu/django/resources/gunicorn.conf /etc/supervisor/conf.d/
 sudo cp /home/ubuntu/django/resources/django.conf /etc/nginx/sites-available/
 OUTPUT=$(curl http://instance-data/latest/meta-data/public-hostname)
 sudo sed -i 's/$region/'${OUTPUT}'/g' /etc/nginx/sites-available/django.conf
+sudo cp -f /home/ubuntu/django/resources/nginx.conf /etc/nginx/nginx.conf
 sudo mkdir /var/log/gunicorn
 sudo ln /etc/nginx/sites-available/django.conf /etc/nginx/sites-enabled/
 sudo service nginx restart
