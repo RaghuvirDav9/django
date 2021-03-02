@@ -5,4 +5,4 @@ class food:
     img=str
     title=str
     desc=str
-    price=int
+    price=str
