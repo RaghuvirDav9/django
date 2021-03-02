@@ -7,7 +7,7 @@ def index(request):
     food1.img='01.jpg'
     food1.title='Vegetable salad'
     food1.desc='Very Very Very Very Very Very Very Very Very Very Very Very Very Very Very good'
-    food1.price='6'
+    food1.price='$6'
     food_list.append(food1)
     food2 = food()
     food2.img = '02.jpg'
