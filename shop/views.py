@@ -23,5 +23,6 @@ def index(request):
     food_list.append(food3)
     print(type(food_list))
     print(food_list[0].title)
+    print(len(food_list))
 
     return render(request,'index.html',{'food':food_list})
