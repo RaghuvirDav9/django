@@ -7,3 +7,4 @@
 # pip3 install django
 # pip3 install nginx
 echo "installing dependencies"
+rm -rf /home/ubuntu/django/dj1
