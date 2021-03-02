@@ -1,4 +1,4 @@
-# #!/bin/bash
+#!/bin/bash
 # cd /home/ubuntu
 # sudo apt-get update
 # sudo apt-get install python3
@@ -6,3 +6,4 @@
 # source env/bin/activate
 # pip3 install django
 # pip3 install nginx
+echo "installing dependencies"
